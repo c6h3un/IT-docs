@@ -5,12 +5,12 @@
 
 1. 顯示目前使用者的user、group、權限等資訊  
 
-	```
-	id current_user  
-	grep current_user /etc/passwd  
-	grep current_user /etc/group  
-	ls -ld /home/current_user  
-	```
+```
+id current_user  
+grep current_user /etc/passwd  
+grep current_user /etc/group  
+ls -ld /home/current_user  
+```
 
 2. 確認使用者current_user 的執行程序，如果有正在執行中的使用程序，中止相關程序。  
 
