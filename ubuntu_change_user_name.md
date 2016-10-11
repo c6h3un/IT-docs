@@ -1,7 +1,7 @@
-# linux change user name
+Ma# linux change user name
 本篇文章以ubuntu 系統為例，說明如何更改現有的linux使用者名稱、群組及家目錄．
 
-假設我們想要將現有的使用者current_user改為new_user，調整的步驟如下：
+假設我們想要將現有的使用者`current_user` 改為 `new_user`，調整的步驟如下：
 
 1. 顯示目前使用者的user、group、權限等資訊  
 
@@ -24,8 +24,8 @@ ls -ld /home/current_user
 
 		```
 		sudo usermod -l new_user current_user  
-		id current\_user  
-		id new\_user  
+		id current_user  
+		id new_user  
 		```
 	
 4. 更改目前使用者群組  
