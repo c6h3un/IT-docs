@@ -19,6 +19,7 @@
 	ps -u current_user
 	kill (-u current_user) pid
 	```
+	
 3. 更改目前使用者名稱，並且確認使用者  
 
 	```
@@ -26,16 +27,19 @@
 	id current\_user  
 	id new\_user  
 	```
+	
 4. 更改目前使用者群組  
 
 	```
 	sudo groupmod -n new_group current_group  
 	id new_user  
-	```  
+	```
+	  
 5. 更改家目錄  
 
 	```
 	sudo usermod -d /home/new_user -m new_user  
 	ls -ld /home/new/user  
 	```
+	
 這樣即完成了！要注意的是，如果有相關服務跑在家目錄底下的話，需要更改相關的config 檔中的絕對路徑設定喔！
