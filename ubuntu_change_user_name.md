@@ -22,18 +22,18 @@ ls -ld /home/current_user
 	
 3. 更改目前使用者名稱，並且確認使用者  
 
-	```
-	sudo usermod -l new_user current_user  
-	id current\_user  
-	id new\_user  
-	```
+		```
+		sudo usermod -l new_user current_user  
+		id current\_user  
+		id new\_user  
+		```
 	
 4. 更改目前使用者群組  
 
-	```
+	```  
 	sudo groupmod -n new_group current_group  
 	id new_user  
-	```
+	```  
 	  
 5. 更改家目錄  
 
